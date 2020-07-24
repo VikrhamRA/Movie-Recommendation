@@ -23,7 +23,7 @@ After executing the MovieRecommendation.py file and obtaining the datasets, we h
 The data obtained from executing the python file can be found here : 
 https://drive.google.com/drive/folders/1TgCJ4d7ssKlLTzfLwW2GGMwSdogIAiLp?usp=sharing
 
-**Refer .pptx file for further info on importing and querying Neo4j database**
+**Refer .pptx or .pdf file for further info on importing and querying Neo4j database**
 
 **Project Contributors** : 
 Vikrham R A, Aakaash Babu P - **PSG College Of Technology**
