@@ -25,3 +25,4 @@ https://drive.google.com/drive/folders/1TgCJ4d7ssKlLTzfLwW2GGMwSdogIAiLp?usp=sha
 
 **Refer .pptx file for further info on importing and querying Neo4j database**
 
+**Project Contributor** : Vikrham R A, Aakaash Babu P **PSG College Of Technology**
