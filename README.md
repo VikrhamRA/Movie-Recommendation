@@ -6,12 +6,12 @@ Initial Dataset required for the project can be found in this link : https://dri
 
 We create 7 datasets to build this structure. 3 of them for nodes (Users, Movies, Genres) and others for relationships. You can find details of tables below;
 
-###Nodes
+### Nodes
 1- users (userId): It includes users’ id and it has only one column. It is created with using “ratings.csv” data. We create “Users” node and it will has relations with “Movies” and “Genres” nodes
 2- movies (movieId, title, rating_mean): It includes movies’ id, title and rating_mean fields. It is created with using “movies.csv” data. “Movies” node will has relations with “Users” and “Genres” nodes and it has also relationship to itself based on similarity
 3- genres (genres): It is small data it has 19 rows and it keeps genres
 
-###Relationships
+### Relationships
 1- users_movies (userId, movieId, rating): It uses to create a relationship between “Users” and “Movies” nodes.
 2- movies_genres (movieId, genres): It uses to create a relationship between “Movies” and “Genres” nodes.
 3- users_genres (userId, genres): It uses to create a relationship between “Users” and “Genres” nodes. “genres” is a calculated field. It includes the favorite genre of the users. To calculate the favorite genre, I use count of the genres from movies which is already watched by users. I thought to use movies’ ratings but after making some checks I decided to use counts
